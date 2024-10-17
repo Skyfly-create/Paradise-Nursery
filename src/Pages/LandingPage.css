@@ -1,0 +1,95 @@
+/* LandingPage.css */
+
+body {
+    margin: 2%;
+    font-family: Arial, sans-serif;
+    
+}
+
+.landing-container {
+    color: white;
+    
+}
+
+.header {
+    background-color: white; 
+    padding: 10px 5%; 
+    
+}
+.underline {
+    width: 100%; /* Full width */
+    height: 2px; /* Thickness of the line */
+    background-color: black; /* Color of the line */
+    margin: 5px 0; /* Spacing above and below the line */
+}
+
+
+.header-title {
+    color: black; /* Black text color */
+    margin: 0; /* Remove default margin */
+}
+
+.image-background {
+    background: url('../Data/Fine-dhaka-grass.webp') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px; /* Add padding to create space around content */
+}
+
+.content {
+    display: flex;
+    justify-content: center; /* Center content */
+    margin: 20px;
+}
+
+.text-column {
+    flex: 0 0 30%; /* 30% width for the text column */
+    padding: 20px; /* Padding for better spacing */
+}
+
+.note-column {
+    flex: 0 0 70%; /* 70% width for the note column */
+    padding: 20px; /* Padding for better spacing */
+    color: white; /* Ensure the note text is white */
+    text-align: left; /* Left align text */
+}
+
+.welcome-heading {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+.caption {
+    margin: 1em 0;
+}
+
+.green-line {
+    width: 60px; /* Small green line */
+    height: 5px; /* Height of the line */
+    background-color: #28a745; /* Green color */
+    margin: 0 auto; /* Center the line */
+}
+
+.caption-text {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.get-started-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #28a745; /* Green color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.get-started-button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+}
+
+.note-column p {
+    margin: 0.5em 0; /* Space between paragraphs */
+    line-height: 1.5; /* Improve readability */
+}

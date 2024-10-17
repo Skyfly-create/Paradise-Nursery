@@ -1,0 +1,78 @@
+/* ProductPage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; /* Add some padding around the page */
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.category {
+    margin-bottom: 30px; /* Space between categories */
+}
+
+.category h2 {
+    color: #2c3e50; /* Darker color for category headings */
+    margin-bottom: 10px; /* Space below category heading */
+    text-transform: uppercase; /* Uppercase for category names */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: center; /* Center the product cards */
+}
+
+.product-card {
+    background-color: white; /* White background for each product card */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 15px; /* Space around each card */
+    padding: 20px; /* Padding inside the card */
+    text-align: center; /* Center the text inside the card */
+    width: 200px; /* Fixed width for cards */
+}
+
+.product-card img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Match the card's rounded corners */
+}
+
+.product-card h3 {
+    font-size: 1.5em; /* Slightly larger font for product name */
+    color: #333; /* Dark text color */
+    margin: 10px 0; /* Space around product name */
+}
+
+.product-card p {
+    margin: 5px 0; /* Space for description and price */
+    color: #555; /* Darker grey for description */
+}
+
+.product-card button {
+    padding: 10px 15px; /* Button padding */
+    font-size: 1em; /* Font size for button text */
+    color: white; /* Button text color */
+    background-color: #28a745; /* Green background */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.product-card button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.product-card button:disabled {
+    background-color: #ccc; /* Grey background for disabled button */
+    cursor: not-allowed; /* Change cursor for disabled state */
+}
